@@ -71,7 +71,7 @@ class _TranslationScreenState extends State<TranslationScreen> {
 
   Future<String> translateText(String text, String targetLanguage) async {
     const apiKey =
-        'AIzaSyCiAifLjsjDhDtcWg5H8kl5b_K45JB5nxQ'; //This is my API key, using Google Cloud Translation API
+        'MY_API_KEYYYYYYY'; //This is my API key, using Google Cloud Translation API, which i have also hidden
     final apiUrl =
         'https://translation.googleapis.com/language/translate/v2?key=$apiKey&q=$text&target=$targetLanguage';
 
