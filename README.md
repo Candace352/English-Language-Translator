@@ -1,1 +1,1 @@
-## English Language Translator Application
+## English Language Translator Application 🌐🗣️🌍
