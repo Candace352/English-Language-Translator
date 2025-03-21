@@ -20,7 +20,7 @@ This device was developed by someone who is passionate about languages and commi
 # Technologies Used 🛠️👩🏻‍💻
 
 **Flutter:**
-The app is built using Flutter, a powerful framework for building cross-platform applications. Flutter provides a rich set of widgets and tools for creating beautiful and responsive user interfaces.
+The app is built using Flutter, a powerful framework for building cross-platform applications.
 
 **Google Cloud Translation API:**
 The app integrates with the Google Cloud Translation API to perform text translation. The API is accessed via HTTP POST requests, and the translated text is extracted from the JSON response.
@@ -33,3 +33,13 @@ The http package is used to send HTTP requests to the Google Cloud Translation A
 
 **Material Design:**
 The app follows Material Design guidelines, ensuring a consistent and visually appealing user experience.
+
+# Dependencies
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.3.3
+  http: ^0.13.3
+
+# Future Works
+I hope to add more languages and implement an offline translation feature. 
